@@ -11,3 +11,5 @@ def DupCh(data):
         i=i+1
     return uniq
 print(DupCh("abcdca"))
+
+#Added line1
