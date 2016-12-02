@@ -1,0 +1,16 @@
+#return non-duplicate chars in  the string passed abcdca should return bd
+def DupCh(data):
+    uniq=''
+    dup=''
+    i=1
+    for ch in data:
+        if not ch in data[i:] and not ch in dup:
+            uniq=uniq+ch
+        else:
+            dup=dup+ch
+        i=i+1
+    return uniq
+print(DupCh("abcdca"))
+
+#Added line1
+#Changes made
