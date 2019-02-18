@@ -1,3 +1,4 @@
+#test slicing program
 st="This is a string"
 print(st[0])
 print(st[:])
